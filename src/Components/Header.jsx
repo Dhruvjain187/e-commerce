@@ -9,7 +9,10 @@ export default function Header() {
     return (
         <>
             <Nav>
-                <Flex className="flex1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_noLpFg1UfUCDWLEfUmOFTSPlck8HHls9A&s" alt="" /></Flex>
+
+                <Flex className="flex1">
+                    <NavLink id="logo-link" to="/"><img src="https://breeze.swissupdemo.com/static/version1714766523/frontend/Swissup/breeze-evolution/en_US/images/logo.svg" alt="" /></NavLink>
+                </Flex>
 
                 <Flex className="flex2">
                     <NavLink to="/">Home</NavLink>
@@ -23,9 +26,9 @@ export default function Header() {
                     <label htmlFor="sidebar-active" className="open-sidebar"><i className="fa-solid fa-bars"></i></label>
                     <Flex className="link-container">
                         <label htmlFor="sidebar-active" className="close-sidebar"><i className=" fa-solid fa-xmark"></i></label>
-                        <NavLink to="/login">Login</NavLink>
-                        <NavLink to="/signup">Sign-Up</NavLink>
-                        <NavLink to="/store">Store</NavLink>
+                        <NavLink id="logo-link" to="/login"><i class="fa-solid fa-right-to-bracket"></i></NavLink>
+                        <NavLink id="logo-link" to="/signup"><i class="fa-solid fa-user"></i></NavLink>
+                        <NavLink id="logo-link" to="/store"><i class="fa-solid fa-store"></i></NavLink>
                     </Flex>
 
                 </Flex >

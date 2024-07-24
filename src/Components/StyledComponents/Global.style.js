@@ -2,18 +2,23 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+
   * {
     box-sizing: border-box;
   }
 
+  
+
+  html{
+    width: 100%;
+  }
+
   body {
-    color: hsl(192, 100%, 9%);
     font-family: Georgia,cursive;
     font-size: 1.15em;
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
   }
 
   p {
@@ -22,6 +27,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   img {
-    max-width: 100%;
+    width: 100%;
 }
 `;

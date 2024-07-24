@@ -15,6 +15,7 @@ export const SliderContainer = styled.div`
     align-items: flex-end;
     box-sizing: border-box;
 
+
     p{
         text-align: center;
         color: white;

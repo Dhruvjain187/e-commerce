@@ -33,7 +33,8 @@ export const StyledForm = styled.form`
         width:100%;
         height:3em;
         border-radius: 0.8em;
-        background-color: magenta;
+        background-color: black;
+        color: white;
     }
 
     @media(max-width:370px){

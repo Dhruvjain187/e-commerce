@@ -6,7 +6,6 @@ import { Outlet } from "react-router-dom";
 export default function Index() {
     return (
         <>
-            <GlobalStyles />
             <Header />
             <Outlet />
             <Footer />

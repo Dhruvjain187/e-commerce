@@ -11,6 +11,7 @@ import {
   Route,
   createRoutesFromElements
 } from "react-router-dom";
+import { GlobalStyles } from "./Components/StyledComponents/Global.style";
 
 export default function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -24,6 +25,7 @@ export default function App() {
   ))
   return (
     <>
+      <GlobalStyles />
       <RouterProvider router={router} />
     </>
   )

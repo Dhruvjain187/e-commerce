@@ -4,20 +4,21 @@ export const Nav = styled.nav`
     display:flex;
     justify-content:space-between;
     background-color:white;
-    padding:20px 30px;
+    padding:0.5em;
     width:100%;
     height:4em;
     border-radius:1em;
     margin:0;
-    position:fixed;
+    /* position: fixed; */
     top:0;
     z-index:10;
 
 
     
     .flex1 img{
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 50px;
+        box-sizing: border-box;
     }
 
 
@@ -28,6 +29,7 @@ export const Nav = styled.nav`
     .open-sidebar .fa-solid{
         color:black;
     }
+    
 
     @media(min-width:410px){
         & a{
@@ -95,5 +97,17 @@ export const Nav = styled.nav`
             display:flex;
         }  
     }
+    }
+
+    @media(max-width:799px){
+        & .flex2{
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        & .flex3{
+            /* justify-content: center; */
+            align-items: center;
+        }
     }
 `;
